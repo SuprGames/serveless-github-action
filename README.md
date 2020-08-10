@@ -20,6 +20,7 @@ This is how the step looks:
       uses: suprgames/serverless-github-action@master
       with:
         command: deploy
+        args: -v
 ```
 
 
