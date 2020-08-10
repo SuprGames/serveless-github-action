@@ -41,7 +41,7 @@ jobs:
         
     # Deployment of your project
     - name: serverless deploy
-      uses: suprgames/serverless-github-action@master
+      uses: suprgames/serverless-github-action@v1.77
       with:
         command: deploy
       env:
