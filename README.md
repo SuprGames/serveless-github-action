@@ -4,7 +4,11 @@ Serverless Github Action with the good versions!
 * Node 12
 * Serverless 1.77
 
-Base line image: node:12-slim
+We use a precreated Docker image with the Serverless Framework in place already to avoid the installation
+
+Base line image: 
+ * https://github.com/SuprGames/serverless-docker
+ * https://hub.docker.com/r/suprgames/serverless-docker
 
 
 ## Usage
