@@ -41,7 +41,7 @@ jobs:
  * If you do not require integration with Serverless system, then you don't need to have Serverless access key, but then you need to remove any references to Org in your Yaml. I recoment to create the Key in Serverless Framework and then you register the secret.
  * The AWS credentials you are using here need to have privileges to do the operations you require.
  * If you need to install your plugins, you will need to call npm install before you call your serverless plugin
-    
+   ``` 
     # Set up of Node 12
     - name: Installing Node 12  
       uses: actions/setup-node@v2-beta
@@ -52,7 +52,7 @@ jobs:
       uses: actions/npm@master
       with:
         args: install
-        
+    ```    
 
 ## License
 
