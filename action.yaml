@@ -1,8 +1,8 @@
 name: 'Serverless GithubAction'
 description: Github action for Serverless Framework with Node 12 and latest Serverless Framework
 inputs:
-  args:
-    description: arguments for sls command
+  command:
+    description: 'Serverless command including arguments'
     required: true
 runs:
   using: 'docker'
