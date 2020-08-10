@@ -1,0 +1,15 @@
+name: 'Serverless GithubAction'
+description: Github action for Serverless Framework with Node 12 and latest Serverless Framework
+inputs:
+  args:
+    description: arguments for sls command
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.command }}
+    - ${{ inputs.args }}
+branding:
+  icon: 'zap' 
+  color: orange
