@@ -13,6 +13,18 @@ Base line image:
 
 ## Usage
 
+This is how the step looks:
+
+```
+    - name: serverless deploy
+      uses: suprgames/serverless-github-action@master
+      with:
+        command: deploy
+```
+
+
+And this is a complete example inside a Github Workflow File:
+
 ```
 on:
   push:
