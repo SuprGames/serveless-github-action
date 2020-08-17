@@ -17,7 +17,7 @@ This is how the step looks:
 
 ```
     - name: serverless deploy
-      uses: suprgames/serverless-github-action@master
+      uses: suprgames/serverless-github-action@1.77
       with:
         command: deploy
         args: -v
